@@ -1,0 +1,12 @@
+*.pyc
+flycheck*
+#*
+*.DS_Store
+doc/**/*.aux
+doc/**/*.bbl
+doc/**/*.log
+doc/**/*.blg
+doc/**/*auto
+doc/**/*.synctex.*
+doc/**/*.out
+__pycache__

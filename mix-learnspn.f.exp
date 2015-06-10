@@ -1,0 +1,20 @@
+ipython -- bin/mix_learnspn_exp.py nltcs -k 2 -c GMM -g 5 -m 10 -a 2.0 -n 50 -v 1 -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/nltcs.log
+ipython -- bin/mix_learnspn_exp.py msnbc -k 2 -c GMM -g 5 -m 50 -a 1.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/msnbc.log
+ipython -- bin/mix_learnspn_exp.py kdd -k 2 -c GMM -g 5 -m 10 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/kdd.log
+ipython -- bin/mix_learnspn_exp.py plants -k 2 -c GMM -g 5 -m 10 -a 1.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/plants.log
+ipython -- bin/mix_learnspn_exp.py baudio -k 2 -c GMM -g 5 -m 50 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/baudio.log
+ipython -- bin/mix_learnspn_exp.py jester -k 2 -c GMM -g 5 -m 10 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/jester.log
+ipython -- bin/mix_learnspn_exp.py accidents -k 2 -c GMM -g 10 -m 10 -a 0.2 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/accidents.log
+ipython -- bin/mix_learnspn_exp.py tretail -k 2 -c GMM -g 10 -m 50 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/tretail.log
+ipython -- bin/mix_learnspn_exp.py pumsb_star -k 2 -c GMM -g 10 -m 10 -a 0.1 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/pumsb_star.log
+ipython -- bin/mix_learnspn_exp.py dna -k 2 -c GMM -g 15 -m 50 -a 0.1 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/dna.log
+ipython -- bin/mix_learnspn_exp.py msweb -k 2 -c GMM -g 5 -m 10 -a 1.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/msweb.log
+ipython -- bin/mix_learnspn_exp.py book -k 2 -c GMM -g 5 -m 50 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/book.log
+ipython -- bin/mix_learnspn_exp.py tmovie -k 2 -c GMM -g 5 -m 10 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/tmovie.log
+ipython -- bin/mix_learnspn_exp.py cwebkb -k 2 -c GMM -g 5 -m 10 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/cwebkb.log
+ipython -- bin/mix_learnspn_exp.py c20ng -k 2 -c GMM -g 5 -m 10 -a 1.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0]-o exp/mix-learnspn-f/ > exp/mix-learnspn-f/c20ng.log
+ipython -- bin/mix_learnspn_exp.py bbc -k 2 -c GMM -g 5 -m 10 -a 1.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/bbc.log
+ipython -- bin/mix_learnspn_exp.py ad -k 2 -c GMM -g 5 -m 10 -a 0.1 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/ad.log
+ipython -- bin/mix_learnspn_exp.py bnetflix -k 2 -c GMM -g 5 -m 50 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/bnetflix.log
+ipython -- bin/mix_learnspn_exp.py cr52 -k 2 -c GMM -g 5 -m 10 -a 1.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/cr52.log
+ipython -- bin/mix_learnspn_exp.py kosarek -k 2 -c GMM -g 5 -m 10 -a 2.0 -n 50 -v 1  -q [n_epochs=50,regularization=L1,learning_rate=1.0,l1_reg_coef=1.0] -o exp/mix-learnspn-f/ > exp/mix-learnspn-f/kosarek.log
